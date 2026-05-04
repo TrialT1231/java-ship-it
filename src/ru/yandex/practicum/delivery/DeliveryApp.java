@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class DeliveryApp {
-
     private static final Scanner scanner = new Scanner(System.in);
     private static List<Parcel> allParcels = new ArrayList<>();
     private static List<Trackable> allTrackables = new ArrayList<>();
@@ -14,6 +13,7 @@ public class DeliveryApp {
     private static ParcelBox<PerishableParcel> perishableBox;
 
     public static void main(String[] args) {
+
         standardBox = new ParcelBox<>(50.0);
         fragileBox = new ParcelBox<>(30.0);
         perishableBox = new ParcelBox<>(40.0);
