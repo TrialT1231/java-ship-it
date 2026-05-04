@@ -29,7 +29,7 @@ public class ParcelBox<T extends Parcel> {
     }
 
     public List<T> getAllParcels() {
+
         return new ArrayList<>(parcels);
     }
-
 }

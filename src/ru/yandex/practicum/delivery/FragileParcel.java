@@ -24,5 +24,4 @@ public class FragileParcel extends Parcel implements Trackable {
         System.out.println("Хрупкая посылка " + description + " изменила местоположение на " + newLocation);
         this.deliveryAddress = newLocation;
     }
-
 }
